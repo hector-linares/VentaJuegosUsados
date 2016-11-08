@@ -13,16 +13,16 @@ namespace VentaJuegosUsados.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult ListaJuegos()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Listado de juegos";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult PublicarJuego()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Vende tu juego";
 
             return View();
         }

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cf15eb5a38c042de8378c662ac0f93ba" Name="Diagram1">
+        <EntityTypeShape EntityType="VentaJuegosUsadosModel.Articulos" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaJuegosUsadosModel.Compra" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaJuegosUsadosModel.Estado" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaJuegosUsadosModel.Genero" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaJuegosUsadosModel.perfil" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaJuegosUsadosModel.Plataforma" Width="1.5" PointX="3" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaJuegosUsadosModel.Usuarios" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VentaJuegosUsadosModel.Ventas" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Articulos_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Articulos_Genero" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Articulos_Plataforma" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Articulos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Compra_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Ventas_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Compra_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Usuarios_perfil" ManuallyRouted="false" />
+        <AssociationConnector Association="VentaJuegosUsadosModel.FK_Ventas_Usuarios" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,90 @@
+﻿@model VentaJuegosUsados.DB.Articulos
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Articulos</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fechaPublicacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fechaPublicacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.imagenURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.imagenURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estado.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Genero.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Genero.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Plataforma.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Plataforma.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usuarios.nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usuarios.nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
